@@ -1,0 +1,14 @@
+[[language]]
+name = "python"
+language-servers = ["ruff"]
+auto-format = true
+
+[language-server.ruff]
+command = "uvx"
+args = ["ruff", "server"]
+
+[language-server.rust-analyzer.config.check]
+command = "clippy"
+
+[language-server.rust-analyzer.config.cargo]
+features = "all"
