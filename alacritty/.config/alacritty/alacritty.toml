@@ -4,6 +4,3 @@ live_config_reload = true
 [font]
 normal = { family = "Comic Code", style = "Regular" }
 size = 24
-
-[terminal]
-shell = { program = "/bin/zsh" }
