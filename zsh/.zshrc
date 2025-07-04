@@ -20,3 +20,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # configure claude
 alias claude="$HOME/.claude/local/claude"
+
+# configure zellij
+alias z=zellij

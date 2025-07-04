@@ -8,3 +8,6 @@ size = 24
 [colors.primary]
 background = "#323d43"
 foreground = "#d3c6aa"
+
+[window]
+option_as_alt = "OnlyLeft"
