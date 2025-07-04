@@ -9,3 +9,6 @@ setopt HIST_EXPIRE_DUPS_FIRST # Expire duplicate commands first when trimming hi
 setopt HIST_IGNORE_ALL_DUPS   # Remove duplicate entries when writing history
 setopt HIST_IGNORE_SPACE      # Ignore commands that start with a space
 setopt HIST_VERIFY            # Don't execute history substitutions immediately
+
+# init starship
+eval "$(starship init zsh)"
