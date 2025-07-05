@@ -9,5 +9,14 @@ size = 24
 background = "#2d0f03"
 foreground = "#d3c6aa"
 
+[colors.normal]
+green = "#61795e"
+yellow = "#c27815"
+red = "#7f1903"
+blue = "#6f92b0"
+
+[colors]
+cursor = { text = "#574f3e", cursor = "#c27815" }
+
 [window]
 option_as_alt = "OnlyLeft"
