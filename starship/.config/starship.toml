@@ -1,0 +1,28 @@
+add_newline = true
+palette = 'mcm'
+format = '''
+[┌─](text) $shell$time$os
+[│](text)  $directory$rust$package
+[│](text)
+[└─>](text) '''
+
+[directory]
+truncate_to_repo = false
+style = 'bold yellow'
+
+[os]
+disabled = false
+
+[shell]
+disabled = false
+
+[time]
+disabled = false
+style = 'green'
+
+[palettes.mcm]
+green = '#61795e'
+orange = '#ae2c02'
+yellow = '#c27815'
+red = '#7f1903'
+text = '#d3c6aa'
