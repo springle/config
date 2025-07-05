@@ -6,7 +6,7 @@ normal = { family = "Comic Code", style = "Regular" }
 size = 24
 
 [colors.primary]
-background = "#323d43"
+background = "#2d0f03"
 foreground = "#d3c6aa"
 
 [window]

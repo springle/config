@@ -250,8 +250,7 @@ load_plugins {
 
 // Choose the theme that is specified in the themes section.
 // Default: default
-//
-// theme "dracula"
+theme "mcm"
 
 // Choose the base input mode of zellij.
 // Default: normal
@@ -279,7 +278,6 @@ default_mode "locked"
 
 // The folder in which Zellij will look for themes
 // (Requires restart)
-//
 // theme_dir "/tmp"
 
 // Toggle enabling the mouse mode.
