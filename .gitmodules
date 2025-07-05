@@ -1,3 +1,6 @@
 [submodule "nvim/.config/nvim/pack/github/start/undotree"]
 	path = nvim/.config/nvim/pack/github/start/undotree
 	url = https://github.com/mbbill/undotree.git
+[submodule "nvim/.config/nvim/pack/github/start/everforest-nvim"]
+	path = nvim/.config/nvim/pack/github/start/everforest-nvim
+	url = https://github.com/neanias/everforest-nvim.git

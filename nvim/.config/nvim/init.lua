@@ -1,13 +1,21 @@
 -- INIT.LUA
 --
--- KEY BINDINGS
+-- KEY BINDINGS (built-in)
+-- q: => open command history
+-- :hi => open highlight groups for current buffer
+--
+-- KEY BINDINGS (added)
 -- <Space>u => toggle undo tree
 --
 -- PLUGINS
 -- mbbill/undotree
+-- neanias/everforest-nvim
 
--- colorscheme
-vim.cmd.colorscheme('habamax')
+-- everforest colorscheme
+require("everforest").setup({
+  background = "soft",
+})
+vim.cmd.colorscheme('everforest')
 
 -- set leader
 vim.g.mapleader = " "
