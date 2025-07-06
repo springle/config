@@ -20,3 +20,7 @@ cursor = { text = "#574f3e", cursor = "#c27815" }
 
 [window]
 option_as_alt = "OnlyLeft"
+startup_mode = "Fullscreen"
+
+[mouse]
+hide_when_typing = true
