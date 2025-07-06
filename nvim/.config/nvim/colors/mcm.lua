@@ -12,6 +12,7 @@ local colors = {
   yellow = '#c27815',
   red = '#7f1903',
   text = '#d3c6aa',
+  faded = '#574f3e',
   background = '#2d0f03',
 }
 
@@ -31,5 +32,6 @@ hl('Warning', { fg = colors.orange })
 hl('Visual', { bg = colors.green })
 hl('Cursor', { fg = colors.background, bg = colors.text })
 hl('StatusLine', { fg = colors.text, bg = colors.background })
+hl('StatusLineNC', { fg = colors.faded, bg = colors.background })
 hl('LineNr', { fg = colors.green })
 hl('CursorLineNr', { fg = colors.text, bold = true })
