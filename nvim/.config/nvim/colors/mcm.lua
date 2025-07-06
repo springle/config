@@ -7,6 +7,8 @@ vim.o.background = 'dark'
 vim.g.colors_name = 'mcm'
 
 local colors = {
+  brown = '#4a1c02',
+  blue = '#6592b0',
   green = '#61795e',
   orange = '#ae2c02',
   yellow = '#c27815',
@@ -26,10 +28,10 @@ hl('String', { fg = colors.yellow })
 hl('Number', { fg = colors.orange })
 hl('Boolean', { fg = colors.orange })
 hl('Function', { fg = colors.text, bold = true })
-hl('Keyword', { fg = colors.red })
+hl('Keyword', { fg = colors.faded })
 hl('Error', { fg = colors.red, bold = true })
 hl('Warning', { fg = colors.orange })
-hl('Visual', { bg = colors.green })
+hl('Visual', { bg = colors.brown })
 hl('Cursor', { fg = colors.background, bg = colors.text })
 hl('StatusLine', { fg = colors.text, bg = colors.background })
 hl('StatusLineNC', { fg = colors.faded, bg = colors.background })
