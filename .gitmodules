@@ -4,3 +4,6 @@
 [submodule "nvim/.config/nvim/pack/github/start/everforest-nvim"]
 	path = nvim/.config/nvim/pack/github/start/everforest-nvim
 	url = https://github.com/neanias/everforest-nvim.git
+[submodule "nvim/.config/nvim/pack/github/start/nvim-treesitter"]
+	path = nvim/.config/nvim/pack/github/start/nvim-treesitter
+	url = https://github.com/nvim-treesitter/nvim-treesitter.git
