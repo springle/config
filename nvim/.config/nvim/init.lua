@@ -3,9 +3,12 @@
 -- GLOBAL MARKS (conventions)
 -- `I => init.lua
 --
+-- COMMANDS (built-in)
+-- :InspectTree => view treesitter AST
+-- :hi => open highlight groups for current buffer
+--
 -- KEY BINDINGS (built-in)
 -- q: => open command history
--- :hi => open highlight groups for current buffer
 -- m[A-Z] => create a global mark (persistant)
 -- m[a-z] => create a local mark (persistant)
 -- `[a-zA-z] => jump to a saved mark
@@ -23,7 +26,7 @@
 -- nvim-treesitter/nvim-treesitter
 
 -- colorscheme
-vim.cmd.colorscheme('mcm')
+vim.cmd.colorscheme('retrobox')
 
 -- set leader
 vim.g.mapleader = " "
