@@ -1,14 +1,13 @@
 add_newline = true
 palette = 'mcm'
 format = '''
-[┌─](text) $shell$time$os
-[│](text)  $directory$rust$package
-[│](text)
-[└─>](text) '''
+$directory
+$os
+'''
 
 [directory]
 truncate_to_repo = false
-style = 'bold yellow'
+style = 'text'
 
 [os]
 disabled = false
