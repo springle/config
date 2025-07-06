@@ -7,7 +7,7 @@ vim.o.background = 'dark'
 vim.g.colors_name = 'mcm'
 
 local colors = {
-  brown = '#4a1c02',
+  brown = '#2d0f03',
   blue = '#6592b0',
   green = '#61795e',
   orange = '#ae2c02',
@@ -15,7 +15,7 @@ local colors = {
   red = '#7f1903',
   text = '#d3c6aa',
   faded = '#574f3e',
-  background = '#2d0f03',
+  background = '#1e0e08',
 }
 
 local function hl(group, opts)

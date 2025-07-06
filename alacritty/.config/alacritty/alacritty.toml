@@ -2,11 +2,11 @@
 live_config_reload = true
 
 [font]
-normal = { family = "Comic Code", style = "Regular" }
+normal = { family = "Terminess Nerd Font Mono", style = "Regular" }
 size = 24
 
 [colors.primary]
-background = "#2d0f03"
+background = "#1e0e08"
 foreground = "#d3c6aa"
 
 [colors.normal]
