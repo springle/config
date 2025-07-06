@@ -11,11 +11,8 @@
 -- mbbill/undotree
 -- neanias/everforest-nvim
 
--- everforest colorscheme
-require("everforest").setup({
-  background = "soft",
-})
-vim.cmd.colorscheme('everforest')
+-- colorscheme
+vim.cmd.colorscheme('mcm')
 
 -- set leader
 vim.g.mapleader = " "
