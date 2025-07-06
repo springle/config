@@ -1,8 +1,10 @@
 add_newline = false
 palette = 'mcm'
-format = '''
-$directory > 
-'''
+format = '$directory$git_branch > '
+
+[git_branch]
+always_show_remote = true
+style = 'earthy'
 
 [directory]
 truncate_to_repo = false
