@@ -7,3 +7,6 @@
 [submodule "nvim/.config/nvim/pack/github/start/nvim-treesitter"]
 	path = nvim/.config/nvim/pack/github/start/nvim-treesitter
 	url = https://github.com/nvim-treesitter/nvim-treesitter.git
+[submodule "nvim/.config/nvim/pack/github/start/nvim-lspconfig"]
+	path = nvim/.config/nvim/pack/github/start/nvim-lspconfig
+	url = https://github.com/neovim/nvim-lspconfig.git

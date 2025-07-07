@@ -16,14 +16,22 @@
 -- <Ctrl>wo => window only (i.e. close other windows)
 -- <Ctrl>ws => window split
 -- <Ctrl>wv => window split (vertical)
+-- <Ctrl>wd => show diagnostic
+-- [d or ]d => prev/next diagnostic
 --
 -- KEY BINDINGS (added)
 -- <Space>u => toggle undo tree
+-- <Space>. => show LSP actions
 --
--- PLUGINS
+-- PLUGINS INSTALLED
 -- mbbill/undotree
 -- neanias/everforest-nvim
 -- nvim-treesitter/nvim-treesitter
+-- neovim/nvim-lspconfig
+--
+-- PLUGINS TO TRY
+-- ThePrimeagen/refactoring.nvim
+-- stevearc/conform.nvim
 
 -- colorscheme
 vim.cmd.colorscheme('retrobox')
@@ -34,12 +42,24 @@ vim.g.mapleader = " "
 -- configure undo tree
 vim.keymap.set('n', '<leader>u', vim.cmd.UndotreeToggle)
 
+-- LSP code actions
+vim.keymap.set('n', '<leader>.', vim.lsp.buf.code_action, { desc = 'Code Action' })
+
+-- indentation and formatting settings
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.expandtab = true
+vim.opt.smartindent = true
+vim.opt.autoindent = true
+vim.opt.cindent = true
+
+-- configure lsp(s)
+vim.lsp.enable('ruff')
+vim.lsp.enable('ty')
+
 -- configure treesitter
 require'nvim-treesitter.configs'.setup {
-  -- Directory to install parsers and queries to
   parser_install_dir = vim.fn.stdpath('data') .. '/site',
-
-  -- Ensure these parsers are installed
   ensure_installed = {
     'c',
     'css',
@@ -61,6 +81,7 @@ require'nvim-treesitter.configs'.setup {
     'jq',
     'json',
     'kdl',
+    'lua',
     'make',
     'markdown',
     'markdown_inline',
@@ -79,9 +100,10 @@ require'nvim-treesitter.configs'.setup {
     'xml',
     'yaml'
   },
-
-  -- Enable syntax highlighting
   highlight = {
+    enable = true,
+  },
+  indent = {
     enable = true,
   },
 }
